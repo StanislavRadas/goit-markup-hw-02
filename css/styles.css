@@ -1,5 +1,19 @@
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    font-size: 14px
+    letter-spacing: 0.03em;
+    --portfolio-button-text: #FFFFFF;
+    --portfolio-bg-color: #2196F3;
+    --primary-white-color:#FFFFFF;
+    --primary-whiteblack-color:#212121;
+    --primary-gray-color:#757575;
+    --primary-vanila-color:#EEEEEE;
+    --primary-black-color:#000000;
+    --primary-vanilawhite-color:#F5F4FA;
+    --primary-blackwhite-color:#2F303A;
+    --primary--grey-color:#ECECEC
+
 }
 .list{
     list-style: none;
@@ -41,7 +55,6 @@ body{
     color: #2196F3;
     text-decoration: none;    
 }
-
 .nav-header{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -51,8 +64,12 @@ body{
     color: #212121;  
     text-decoration: none;
 }
+
 .nav-header:hover,
 .nav-header:focus{
+    color: #2196F3;
+}
+.current{
     color: #2196F3;
 }
 .nav-contact{
@@ -63,6 +80,7 @@ body{
     letter-spacing: 0.02em;
     color: #757575;
     text-decoration: none;
+    font-style: normal;
 }
 .nav-contact:hover,
 .nav-contact:focus{
@@ -117,9 +135,6 @@ body{
     color: #757575;
 }
 /* what we do */
-.perewagi{
-    background-color:#F5F5F5;
-}
 .wedo-section{
     font-family: 'Roboto',sans-serif;
     font-weight: 700;
@@ -171,8 +186,15 @@ body{
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
+    font-style: normal;
     color: #FFFFFF;
+    font-style: normal;
 }
+.address-studio:hover,
+.address-studio:focus{
+    color: #2196F3;
+}
+
 .footer-contact{
     font-family: 'Roboto';
     font-style: normal;
@@ -181,7 +203,12 @@ body{
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-
+    text-decoration: none;
+    font-style: normal;
+}
+.footer-contact:hover,
+.footer-contact:focus{
+    color: #2196F3;
 }
 
 /* portfolio */
@@ -200,6 +227,9 @@ body{
 .portfolio-nav:focus{
      color: #2196F3;
 }
+.current {
+    color: #2196F3;
+}
 .portfolio-contact{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -208,13 +238,11 @@ body{
     letter-spacing: 0.02em;
     color: #757575;
     text-decoration: none;
+    font-style: normal;
 }
 .portfolio-contact:hover,
 .portfolio-contact:focus{
     color: #2196F3;
-}
-.portfolio-main-color{
-    background-color: #F5F5F5;
 }
 .portfolio-button{
     font-family: 'Roboto';
@@ -225,8 +253,6 @@ body{
     letter-spacing: 0.03em;
     border-radius: 4px;
     border: none;
-    --portfolio-button-text:#FFFFFF;
-    --portfolio-bg-color:#2196F3;
     background-color: #F5F4FA;
     cursor: pointer
 
@@ -266,12 +292,23 @@ body{
     letter-spacing: 0.03em;
     color: #FFFFFF;
     text-decoration: none;
+    font-style: normal;
+}
+.adress-portfolio:hover,
+.adress-portfolio:focus{
+    color: #2196F3;
 }
 .portfolio-contactfut{
     font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
+}
+.portfolio-contactfut:hover,
+.portfolio-contactfut:focus{
+    color: #2196F3;
 }
