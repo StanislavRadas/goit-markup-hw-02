@@ -5,14 +5,14 @@ body{
     letter-spacing: 0.03em;
     --portfolio-button-text: #FFFFFF;
     --portfolio-bg-color: #2196F3;
-    --primary-white-color:#FFFFFF;
-    --primary-whiteblack-color:#212121;
-    --primary-gray-color:#757575;
-    --primary-vanila-color:#EEEEEE;
-    --primary-black-color:#000000;
-    --primary-vanilawhite-color:#F5F4FA;
-    --primary-blackwhite-color:#2F303A;
-    --primary--grey-color:#ECECEC
+    --primary-white-color: #FFFFFF;
+    --primary-whiteblack-color: #212121;
+    --primary-gray-color: #757575;
+    --primary-vanila-color: #EEEEEE;
+    --primary-black-color: #000000;
+    --primary-vanilawhite-color: #F5F4FA;
+    --primary-blackwhite-color: #2F303A;
+    --primary--grey-color: #ECECEC
 }
 .list{
     list-style: none;
