@@ -298,13 +298,14 @@ img{
     color: #FFFFFF;
     font-style: normal;
     margin-bottom: 9px;
-    margin-top: 20px;
 }
 .address-studio:hover,
 .address-studio:focus{
     color: #2196F3;
 }
-
+.footer-logo-index{
+    margin-bottom: 20px;
+}
 .footer-contact{
     font-family: 'Roboto';
     font-style: normal;
@@ -321,6 +322,7 @@ img{
 .footer-contact:focus{
     color: #2196F3;
 }
+
 
 /* portfolio */
 /* header */
@@ -477,4 +479,7 @@ img{
 .portfolio-contactfut:hover,
 .portfolio-contactfut:focus{
     color: #2196F3;
+}
+.footer-logo-portfolio{
+    margin-bottom: 20px;
 }
