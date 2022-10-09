@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,28 +15,33 @@
         rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="header-index">
+ <div class="container header-container-index">
+        <nav class="header-nav-index">
             <a href="./index.html" class="webstudio"><span class="web">Web</span>Studio</span></a>
-        <nav>
-            <ul class="list">
+            <ul class="nav-head-list list">
             <li><a href="" class="nav-header current">Студія</a></li>
             <li><a href="./portfolio.html" class="nav-header">Портфоліо</a></li>
             <li><a href="" class="nav-header">Контакти</a></li>
         </ul>
     </nav>  
-    <ul  class="list">
+    <ul  class="nav-contact-index list">
         <li><a href="mail to:info@devstudio.com" class="nav-contact">info@devstudio.com</a></li>
         <li><a href="tel:+380961111111" class="nav-contact">+38 096 111 11 11</a></li>
     </ul>  
+</div>     
     </header>
     <main>
         <section class="head-section">
-            <h1 class="head-title">Ефективні рішення для вашого бізнесу</h1>
+            <div class="container">
+                <h1 class="head-title">Ефективні рішення для вашого бізнесу</h1>
             <button type="button" class="button-head">Замовити послугу</button>
+            </div>
         </section>
         <section class="perewagi">
-            <h2 class="visually-hidden">переваги</h2>
-            <ul class="list">
+            <div class="container">
+                <h2 class="visually-hidden">переваги</h2>
+            <ul class="perewagi-list list">
                 <li><h3 class="title-main-section">увага до деталей</h3> <p class="parag-main-section">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
                 <li><h3 class="title-main-section">пунктуальність</h3> <p class="parag-main-section">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
@@ -42,50 +50,57 @@
                 </li>
                 <li><h3 class="title-main-section">сучасні технології</h3> <p class="parag-main-section">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
-            </ul>   
+            </ul>      
+        </div>    
         </section>
         <section>
-            <h2 class="wedo-section">Чим ми займаємося</h2>
-            <ul class="list">
+            <div class="container">
+                <h2 class="wedo-section">Чим ми займаємося</h2>
+            <ul class="wedo-list list">
                 <li><img src="images/img-1-2.jpg" alt="photo1" width="370" height="294"></li>
                 <li><img src="images/img-2-2.jpg" alt="photo2" width="370" height="294"></li>
                 <li><img src="images/img-3-2.jpg" alt="photo3" width="370" height="294"></li>
             </ul>
+        </div>    
         </section>
         <section class="ourteam">
-            <h2 class="team-name-section">Наша команда</h2>
-            <ul class="list">
-                <li>
+            <div class="container">
+                <h2 class="team-name-section">Наша команда</h2>
+            <ul class="team-list list">
+                <li class="ourteam-index-box">
                     <img src="images/imgleute-2.jpg" alt="photo1-2" width="270" height="260">
                     <h3 class="team-name">Ігор Дем'яненко</h3>
                     <p class="team-name-parag">Product Designer</p>
                 </li>
-                <li>
+                <li class="ourteam-index-box">
                     <img src="images/img-2leute-2.jpg" alt="photo1-3" width="270" height="260">
                     <h3 class="team-name">Ольга Рєпіна</h3>
                     <p class="team-name-parag">Frontend Developer</p>
                 </li>
-                <li>
+                <li class="ourteam-index-box">
                     <img src="images/img-3leute-2.jpg" alt="photo1-4" width="270" height="260">
                     <h3 class="team-name">Микола Тарасов</h3>
                     <p class="team-name-parag">Marketing</p>
                 </li>
-                <li><img src="images/img-4leute-2.jpg" alt="photo1-5" width="270" height="260">
+                <li class="ourteam-index-box"><img src="images/img-4leute-2.jpg" alt="photo1-5" width="270" height="260">
                 <h3 class="team-name">Михайло Єрмаков</h3>
                 <p class="team-name-parag">UI Designer</p>
             </li>
             </ul>
+        </div>   
         </section>
     </main>
     <footer class="footer-section">
+        <div class="container">
             <a href="./index.html" class="webstudiofut"><span class="web">Web</span>Studio</span></a>
             <address>
-                <ul class="list">
+                <ul class="footer-index-list list">
                 <li><a href="https://goo.gl/maps/mVJf43payoTZsXNx5" target="_blank" rel="noopener norefferer nofollow" class="address-studio">м. Київ, пр-т Лесі Українки, 26</a></li>
                 <li><a href="mail to:info@devstudio.com" class="footer-contact">info@devstudio.com</a></li>
                 <li><a href="tel:+380961111111" class="footer-contact">+38 096 111 11 11</a></li>
                 </ul>
             </address>
+        </div>    
     </footer>
 </body>
 </html>
