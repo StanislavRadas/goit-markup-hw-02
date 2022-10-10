@@ -71,10 +71,6 @@ img{
 }
 /* Studio */
 /* headernav */
-.header-index{
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
 .webstudiofut{
     font-family: 'Raleway';
     font-weight: 700;
@@ -105,11 +101,11 @@ img{
 .header-container-index{
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 .nav-contact-index{
     display: flex;
     gap: 50px;
+    margin-left: auto;
 }
 .nav-head-list{
     display: flex;
@@ -124,6 +120,8 @@ img{
     letter-spacing: 0.02em;
     color: #212121;  
     text-decoration: none;
+    display: block;
+    padding: 32px;
 }
 
 .nav-header:hover,
@@ -154,6 +152,7 @@ img{
     background-color: #2F303A;
     padding-bottom: 200px;
     padding-top: 200px;
+    text-align: center;
 }
 .head-title{
     font-family: 'Roboto' sans-serif;
@@ -163,10 +162,8 @@ img{
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    margin-bottom: 30px;
     color:#FFFFFF;
     width:  696px; 
-    height: 120px;
     margin: 0 auto;
     margin-bottom: 30px;
 }
@@ -179,23 +176,18 @@ img{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    position: absolute;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    align-items: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     cursor: pointer;
     min-width: 216px;
-    height: 50px;
-    margin-left: 480px;
+    padding: 10px 32px;
 }
 /* main section */
+.perewagi{
+    padding: 94px 0;
+}
 .perewagi-list{
-    padding-top: 94px;
     display: flex;
-    justify-content: space-around;
     gap: 30px;
 }
 .title-main-section{
@@ -226,12 +218,12 @@ img{
     letter-spacing: 0.03em;
     color: #212121;
     margin-bottom: 50px;
-    padding-top: 94px;
 }
 .wedo-list{
     display: flex;
-    justify-content: space-around;
     gap: 30px;
+}
+.wedo-section{
     padding-bottom: 94px;
 }
 /* our team */
@@ -242,7 +234,6 @@ img{
 }
 .team-list{
     display: flex;
-    justify-content: space-around;
     gap: 30px;
 }
 .ourteam-index-box{
@@ -297,14 +288,13 @@ img{
     font-style: normal;
     color: #FFFFFF;
     font-style: normal;
-    margin-bottom: 9px;
 }
 .address-studio:hover,
 .address-studio:focus{
     color: #2196F3;
 }
-.footer-logo-index{
-    margin-bottom: 20px;
+.address-footer-index{
+    margin-top: 20px;
 }
 .footer-contact{
     font-family: 'Roboto';
@@ -316,6 +306,11 @@ img{
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     font-style: normal;
+}
+.footer-list-index{
+    margin-bottom: 9px;
+}
+.footer-list-port{
     margin-bottom: 9px;
 }
 .footer-contact:hover,
@@ -339,6 +334,10 @@ img{
     align-items: center;
     gap: 50px;
 }
+.portfolio-main-color{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .header-portfolio{
     display: flex;
     padding-top: 32px;
@@ -353,8 +352,7 @@ img{
     display: flex;
     justify-content: center;
     gap: 8px;
-    padding-top: 94px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 .portfolio-nav{
     font-family: 'Roboto', sans-serif;
@@ -398,8 +396,7 @@ img{
     background-color: #F5F4FA;
     color: var(--primary-whiteblack-color);
     cursor: pointer;
-    min-width: 130px;
-    height: 38px;
+    padding: 6px 22px;
 }
 
 .portfolio-button:hover,
@@ -416,10 +413,8 @@ img{
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
-    padding-bottom: 94px;
 }
 .portfolio-box{
-    background: #FFFFFF;
     border: 1px solid #EEEEEE;
 }
 .portfolio-img-name{
@@ -429,11 +424,8 @@ img{
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
-    margin-top: 20px;
     margin-bottom: 4px;
-    padding-left: 24px;
 }
-
 .portfolio-img-parag{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -441,7 +433,11 @@ img{
     line-height: 1.87;
     letter-spacing: 0.03em;
     color:#757575;
+    padding-left: 24px;
     padding-bottom: 20px;
+}
+.port-img-name{
+    padding-top: 20px;
     padding-left: 24px;
 }
 /* footer portfolio */
@@ -459,6 +455,8 @@ img{
     color: #FFFFFF;
     text-decoration: none;
     font-style: normal;
+}
+.address-footer-portfolio{
     margin-top: 20px;
 }
 .adress-portfolio:hover,
