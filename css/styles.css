@@ -333,6 +333,7 @@ img{
     display: flex;
     align-items: center;
     gap: 50px;
+    margin-left: auto;
 }
 .portfolio-main-color{
     padding-top: 94px;
@@ -340,13 +341,10 @@ img{
 }
 .header-portfolio{
     display: flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
     outline: 2px solid #F5F5F5;
 }
 .por-cont-header{
     display: flex;
-    justify-content: space-between;
 }
 .btn-portfolio-list{
     display: flex;
@@ -362,6 +360,8 @@ img{
     letter-spacing: 0.02em;
     color: #212121;
     text-decoration: none;
+    display: block;
+    padding: 32px;
 }
 .portfolio-nav:hover,
 .portfolio-nav:focus{
