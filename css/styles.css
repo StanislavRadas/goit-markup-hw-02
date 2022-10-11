@@ -109,7 +109,6 @@ img{
 }
 .nav-head-list{
     display: flex;
-    justify-content: flex-start;
     gap: 50px;
 }
 .nav-header{
@@ -121,7 +120,7 @@ img{
     color: #212121;  
     text-decoration: none;
     display: block;
-    padding: 32px;
+    padding: 32px 0;
 }
 
 .nav-header:hover,
@@ -183,10 +182,10 @@ img{
     padding: 10px 32px;
 }
 /* main section */
-.perewagi{
+.benefits{
     padding: 94px 0;
 }
-.perewagi-list{
+.benefits-list{
     display: flex;
     gap: 30px;
 }
@@ -209,7 +208,7 @@ img{
     margin-top: 10px;
 }
 /* what we do */
-.wedo-section{
+.we-do-title{
     font-family: 'Roboto',sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -223,7 +222,7 @@ img{
     display: flex;
     gap: 30px;
 }
-.wedo-section{
+.we-do-section{
     padding-bottom: 94px;
 }
 /* our team */
@@ -259,7 +258,6 @@ img{
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    margin-top: 30px;
 }
 .team-name-parag{
     font-family: 'Roboto', sans-serif;
@@ -270,6 +268,9 @@ img{
     letter-spacing: 0.03em;
     color: #757575;
     margin-top: 10px;
+}
+.cont-team-name{
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 /* footer */
@@ -307,10 +308,10 @@ img{
     text-decoration: none;
     font-style: normal;
 }
-.footer-list-index{
+.footer-list-index:not(:last-child){
     margin-bottom: 9px;
 }
-.footer-list-port{
+.footer-list-port:not(:last-child){
     margin-bottom: 9px;
 }
 .footer-contact:hover,
@@ -337,7 +338,6 @@ img{
 }
 .portfolio-main-color{
     padding-top: 94px;
-    padding-bottom: 94px;
 }
 .header-portfolio{
     display: flex;
@@ -414,9 +414,6 @@ img{
     flex-wrap: wrap;
     gap: 25px;
 }
-.portfolio-box{
-    border: 1px solid #EEEEEE;
-}
 .portfolio-img-name{
     font-family: 'Roboto'sans-serif;
     font-weight: 700;
@@ -433,12 +430,10 @@ img{
     line-height: 1.87;
     letter-spacing: 0.03em;
     color:#757575;
-    padding-left: 24px;
-    padding-bottom: 20px;
 }
 .port-img-name{
-    padding-top: 20px;
-    padding-left: 24px;
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE;
 }
 /* footer portfolio */
 .footer-portfolio{
