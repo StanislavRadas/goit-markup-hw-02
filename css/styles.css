@@ -105,6 +105,7 @@ img{
 .nav-contact-index{
     display: flex;
     gap: 50px;
+    margin-left: auto;
 }
 .nav-head-list{
     display: flex;
@@ -140,15 +141,17 @@ img{
     font-style: normal;
     padding-top: 32px;
     padding-bottom: 32px;
-    display: flex;
-    margin-left: 0;
-    width: 100%;
-    height: 100%;
+    display: block;
+}
+
+.nav-contact-icon{
+    margin-right: 10px;
+    fill: currentColor;
 }
 
 .nav-contact:hover,
 .nav-contact:focus{
-    color:#2196F3;
+    color: #2196F3;
     fill: #2196F3;
 }
 
@@ -181,6 +184,9 @@ img{
     background-position: center;
     background-size: cover;
     color: rgba(47, 48, 58, 0.4);
+    max-width: 1600px;
+    height: 600px;
+    margin: 0 auto;
 }
 .head-title{
     font-family: 'Roboto' sans-serif;
@@ -213,11 +219,20 @@ img{
 /* main section */
 .benefits{
     padding: 94px 0;
-
 }
 .benefits-list{
     display: flex;
     gap: 30px;
+}
+
+.test-index-icon{
+    margin-bottom: 55px;
+}
+.test-item-ref{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 .title-main-section{
     font-family: 'Roboto', sans-serif;
@@ -311,6 +326,7 @@ img{
 .index-soc-link{
     width: 100%;
     height: 100%;
+    fill: rgba(175, 177, 184, 1);
     border-radius: 50%;
     display: flex; 
     align-items: center;
@@ -321,20 +337,19 @@ img{
 .index-soc-link:focus{
     background-color: #2196F3;
     fill: #FFFFFF;
-    border-radius: 50%;
-    width: 100%;
-    height: 100%
 
 }
 .index-soc-list{
     display: flex;
+    gap: 10px;
+    align-items: center;
     justify-content: center;
    
 }
 /* our clients */
 .our-clients{
-    padding-top: 94px;
-    padding-bottom: 94px;
+    margin-top: 94px;
+    margin-bottom: 94px;
 }
 .clients-title{
     font-family: 'Roboto';
@@ -355,25 +370,27 @@ img{
 .clients-item{
     width: 170px;
     height: 92px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    justify-content: center;
-    align-items: center;
+    
 }
 .clients-link{
     width: 100%;
     height: 100%;
-    display: flex;
-    align-items: center;
+    border: 1px solid currentColor;
+    color:#AFB1B8;
+    border-radius: 4px;
     justify-content: center;
+    align-items: center;
+    display: flex;
     cursor: pointer;
 }
 
 .clients-icon{
-    fill: rgba(175, 177, 184, 1);
+    fill: currentColor;
+
 }
-.clients-link .clients-icon:hover,
-.clients-link .clients-icon:focus{
+.clients-link:hover,
+.clients-link:focus{
+    color: #2196F3;
     fill: #2196F3;
 }
 /* footer */
@@ -389,9 +406,7 @@ img{
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
-    font-style: normal;
     color: #FFFFFF;
-    font-style: normal;
 }
 .address-studio:hover,
 .address-studio:focus{
@@ -402,14 +417,12 @@ img{
 }
 .footer-contact{
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    font-style: normal;
 }
 .footer-list-index:not(:last-child){
     margin-bottom: 9px;
@@ -433,32 +446,34 @@ img{
 .footer-two-colon{
     display: flex;
     align-items: baseline;
+    gap: 70px;
 }
 .footer-soc-list{
-    display: flex;
-    padding-top: 34px;
+    display: flex;    
+    gap: 10px;
+    padding-top: 20px;
 }
 .footer-soc-item{
     width: 44px;
     height: 44px;
-    
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
 }
 .footer-soc-link{
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color:rgba(255, 255, 255, 0.1);
     justify-content: center;
+    fill: rgba(255, 255, 255, 1);
     align-items: center;
+    display: flex;
     cursor: pointer;
 }
 .footer-soc-link:hover,
 .footer-soc-link:focus{
-    background: #2196F3;
+    background-color: #2196F3;
 }
-.footer-icon-soc{
-    fill: #FFFFFF;
-}
+
 /* portfolio */
 /* header */
 .nav-header-portfolio{
@@ -474,6 +489,10 @@ img{
     align-items: center;
     gap: 50px;
     margin-left: auto;
+}
+.pnav-contact-icon{
+    fill: currentColor;
+    margin-right: 10px;
 }
 .portfolio-main-color{
     padding-top: 94px;
