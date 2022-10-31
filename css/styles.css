@@ -9,6 +9,7 @@
     --primary-vanilawhite-color: #F5F4FA;
     --primary-blackwhite-color: #2F303A;
     --primary--grey-color: #ECECEC;
+    --transition-main: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -97,6 +98,7 @@ img{
 .header-nav-index{
     display: flex;
     align-items: center;
+
 }
 .header-container-index{
     display: flex;
@@ -110,6 +112,7 @@ img{
 .nav-head-list{
     display: flex;
     gap: 50px;
+    align-items: flex-end;
 }
 .nav-header{
     font-family: 'Roboto', sans-serif;
@@ -119,8 +122,9 @@ img{
     letter-spacing: 0.02em;
     color: #212121;  
     text-decoration: none;
-    display: block;
+    display:block;
     padding: 32px 0;
+    transition: color var(--transition-main);
 }
 
 .nav-header:hover,
@@ -129,6 +133,28 @@ img{
 }
 .current{
     color: #2196F3;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container-unter-line .current::after{
+    content: '';
+    width: 48px;
+    height: 4px;
+    background-color: #2196F3;
+    position: absolute;
+    top: 76px;
+}
+
+.container-port-unterline .current::after{
+    content: '';
+    width: 78px;
+    height: 4px;
+    background-color: #2196F3;
+    position: absolute;
+    top: 76px;
+    left: 728px;
+
 }
 .nav-contact{
     font-family: 'Roboto', sans-serif;
@@ -142,6 +168,7 @@ img{
     padding-top: 32px;
     padding-bottom: 32px;
     display: block;
+    transition: color var(--transition-main), fill var(--transition-main);
 }
 
 .nav-contact-icon{
@@ -270,6 +297,26 @@ img{
 .we-do-section{
     padding-bottom: 94px;
 }
+.we-do-container{
+    position: relative;
+}
+.we-do-text{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 27px;
+    background: rgba(47, 48, 58, 0.8);
+    max-width: 370px;
+    width: 100%;
+}
 /* our team */
 .ourteam{
     background-color: #F5F4FA;
@@ -332,12 +379,12 @@ img{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: background-color var(--transition-main), fill var(--transition-main);
 }
 .index-soc-link:hover,
 .index-soc-link:focus{
     background-color: #2196F3;
     fill: #FFFFFF;
-
 }
 .index-soc-list{
     display: flex;
@@ -382,6 +429,7 @@ img{
     align-items: center;
     display: flex;
     cursor: pointer;
+    transition: color var(--transition-main), fill var(--transition-main);
 }
 
 .clients-icon{
@@ -407,6 +455,7 @@ img{
     letter-spacing: 0.03em;
     text-decoration: none;
     color: #FFFFFF;
+    transition: color var(--transition-main);
 }
 .address-studio:hover,
 .address-studio:focus{
@@ -423,6 +472,7 @@ img{
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    transition: color var(--transition-main);
 }
 .footer-list-index:not(:last-child){
     margin-bottom: 9px;
@@ -468,6 +518,7 @@ img{
     align-items: center;
     display: flex;
     cursor: pointer;
+    transition: background-color var(--transition-main);
 }
 .footer-soc-link:hover,
 .footer-soc-link:focus{
@@ -520,10 +571,11 @@ img{
     text-decoration: none;
     display: block;
     padding: 32px;
+    transition: color var(--transition-main)
 }
 .portfolio-nav:hover,
 .portfolio-nav:focus{
-     color: #2196F3;
+    color: #2196F3;
      
 }
 .current {
@@ -540,6 +592,7 @@ img{
     font-style: normal;
     display: flex;
     margin-left: 0;
+    transition: color var(--transition-main), fill var(--transition-main);
 }
 .portfolio-contact:hover,
 .portfolio-contact:focus{
@@ -559,6 +612,7 @@ img{
     color: var(--primary-whiteblack-color);
     cursor: pointer;
     padding: 6px 22px;
+    transition: background-color var(--transition-main), color var(--transition-main), box-shadow var(--transition-main);
 }
 
 .portfolio-button:hover,
@@ -576,6 +630,7 @@ img{
     flex-wrap: wrap;
     gap: 30px;
 }
+
 .portfolio-img-name{
     font-family: 'Roboto'sans-serif;
     font-weight: 700;
@@ -600,6 +655,7 @@ img{
 .portfolio-box-link{
     text-decoration: none;
     display: block;
+    transition: box-shadow var(--transition-main)
 }
 .portfolio-box-link:hover,
 .portfolio-box-link:focus{
@@ -623,6 +679,7 @@ img{
 }
 .address-footer-portfolio{
     margin-top: 20px;
+    transition: color var(--transition-main);
 }
 .adress-portfolio:hover,
 .adress-portfolio:focus{
@@ -638,6 +695,7 @@ img{
     text-decoration: none;
     font-style: normal;
     margin-top: 9px;
+    transition: color var(--transition-main);
 }
 .portfolio-contactfut:hover,
 .portfolio-contactfut:focus{

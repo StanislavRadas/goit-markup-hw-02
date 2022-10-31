@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="./css/styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,11 +20,14 @@
  <div class="container header-container-index">
         <nav class="header-nav-index">
             <a href="./index.html" class="webstudio"><span class="web">Web</span>Studio</span></a>
+            <div class="container-unter-line">
             <ul class="nav-head-list list">
             <li><a href="" class="nav-header current">Студія</a></li>
             <li><a href="./portfolio.html" class="nav-header">Портфоліо</a></li>
             <li><a href="" class="nav-header">Контакти</a></li>
         </ul>
+    </div>
+            
     </nav>  
     <ul class="nav-contact-index list"> 
         <li class="nav-idex-li"><a href="mailto:info@devstudio.com" class="nav-contact"><svg class="nav-contact-icon" width="16" height="12">
@@ -71,9 +75,12 @@
             <div class="container">
                 <h2 class="we-do-title">Чим ми займаємося</h2>
             <ul class="wedo-list list">
-                <li><img src="images/img-1-2.jpg" alt="photo1" width="370" height="294"></li>
-                <li><img src="images/img-2-2.jpg" alt="photo2" width="370" height="294"></li>
-                <li><img src="images/img-3-2.jpg" alt="photo3" width="370" height="294"></li>
+                <li><div class="we-do-container"><img src="images/img-1-2.jpg" alt="photo1" width="370" height="294">
+                <p class="we-do-text">десктопні додатки</p></div></li>
+                <li><div class="we-do-container"><img src="images/img-2-2.jpg" alt="photo2" width="370" height="294">
+                <p class="we-do-text">мобільні додатки</p></div></li>
+                <li><div class="we-do-container"><img src="images/img-3-2.jpg" alt="photo3" width="370" height="294">
+                <p class="we-do-text">дизайнерські рішення</p></div></li>
             </ul>
         </div>    
         </section>
