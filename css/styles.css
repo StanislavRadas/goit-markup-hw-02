@@ -802,7 +802,6 @@ margin-bottom: 12px;
     outline: transparent;
     cursor: pointer;
     transition: border-color var(--transition-main);
-    transition: fill var(--transition-main);
 }
 .modal-input:hover + .modal-input-icon,
 .modal-input:focus + .modal-input-icon{
@@ -834,7 +833,7 @@ margin-bottom: 12px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     cursor: pointer;
-    transition: border-color 250ms var(--transition-main);
+    transition: border-color var(--transition-main);
 }
 .modal-textarea:hover,
 .modal-textarea:focus{
@@ -927,6 +926,7 @@ margin-bottom: 12px;
     background-color: rgba(47, 48, 58, 1);
     padding: 16px 15px;
     margin-right: 12px;
+    color: var(--primary--grey-color);
 }
 .form-check{
     margin-top: 20px;
