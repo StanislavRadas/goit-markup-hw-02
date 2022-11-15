@@ -1,0 +1,61 @@
+.test-item-list-index {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.test-item-index {
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.head-section {
+    background-color: #2F303A;
+    padding-bottom: 200px;
+    padding-top: 200px;
+    text-align: center;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/front-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: rgba(47, 48, 58, 0.4);
+    max-width: 1600px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.head-title {
+    font-family: 'Roboto' sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 696px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.button-head {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    background-color: #2196F3;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor: pointer;
+    min-width: 216px;
+    padding: 10px 32px;
+}

@@ -1,0 +1,58 @@
+.footer-portfolio {
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.webstudiofut {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.adress-portfolio {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-style: normal;
+    &:hover,
+    &:focus {
+    color: #2196F3;
+}
+}
+
+.address-footer-portfolio {
+    margin-top: 20px;
+    transition: color var(--transition-main);
+}
+
+
+
+.portfolio-contactfut {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
+    margin-top: 9px;
+    transition: color var(--transition-main);
+    &:hover,
+    &:focus {
+    color: #2196F3;
+}
+}
+
+
+
+.footer-logo-portfolio {
+    margin-bottom: 20px;
+}

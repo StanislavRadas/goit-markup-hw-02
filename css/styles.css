@@ -69,10 +69,10 @@ img{
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-}
+} 
 /* Studio */
 /* headernav */
-.webstudiofut{
+ .webstudiofut{
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -278,7 +278,7 @@ img{
     letter-spacing: 0.03em;
     color: #757575;
     margin-top: 10px;
-}
+} 
 /* what we do */
 .we-do-title{
     font-family: 'Roboto',sans-serif;
@@ -317,7 +317,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} 
 /* our team */
 .ourteam{
     background-color: #F5F4FA;
@@ -952,4 +952,4 @@ margin-bottom: 12px;
     top: 25%;
     fill: rgba(255, 255, 255, 1);
     margin-left: 10px;
-}
+} 

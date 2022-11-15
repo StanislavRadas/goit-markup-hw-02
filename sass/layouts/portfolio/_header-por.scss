@@ -1,0 +1,112 @@
+.nav-header-portfolio {
+    display: flex;
+    align-items: center;
+}
+
+.port-header-list {
+    display: flex;
+    gap: 50px;
+}
+
+.portfolio-contact-list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: auto;
+}
+
+.pnav-contact-icon {
+    fill: currentColor;
+    margin-right: 10px;
+}
+
+.portfolio-main-color {
+    padding-top: 94px;
+}
+
+.header-portfolio {
+    display: flex;
+    outline: 2px solid #F5F5F5;
+}
+
+.por-cont-header {
+    display: flex;
+}
+
+.btn-portfolio-list {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 50px;
+}
+
+.portfolio-nav {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+    display: block;
+    padding: 32px 0;
+    transition: color var(--transition-main);
+    &:hover,
+    &:focus {
+    color: #2196F3;
+}
+}
+
+.container-port-unterline {
+    position: relative;
+}
+
+
+
+.current {
+    color: #2196F3;
+}
+
+.portfolio-contact {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+    font-style: normal;
+    display: flex;
+    margin-left: 0;
+    transition: color var(--transition-main), fill var(--transition-main);
+    &:hover,
+    &:focus {
+    color: #2196F3;
+    fill: #2196F3;
+}
+}
+
+
+
+.portfolio-button {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    border: none;
+    background-color: #F5F4FA;
+    color: var(--primary-whiteblack-color);
+    cursor: pointer;
+    padding: 6px 22px;
+    transition: background-color var(--transition-main), color var(--transition-main), box-shadow var(--transition-main);
+    &:hover,
+    &:focus {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: var(--portfolio-button-text);
+    background-color: var(--portfolio-bg-color);
+}
+}
+
