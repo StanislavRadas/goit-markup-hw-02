@@ -10,18 +10,25 @@
     flex-wrap: wrap;
     gap: 30px;
 }
-
-.test-item-ref {
-    margin-bottom: 55px;
-    background-color: rgba(245, 244, 250, 1);
-    width: 100%;
-    border-radius: 4px;
+.list-benefits-index{
     @media screen and (min-width: 768px) {
         width: calc(100% - 30px / 2);
     }
     @media screen and (min-width: 1200px) {
         width: calc(100% - 120px / 4);
     }
+}
+
+.test-item-ref {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 55px;
+    background-color: rgba(245, 244, 250, 1);
+    width: 100%;
+    height: 120px;
+    border-radius: 4px;
+
 }
 
 .title-main-section {
