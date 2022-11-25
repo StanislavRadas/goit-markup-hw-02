@@ -1,11 +1,20 @@
 .portfolio-main-color {
-    padding-bottom: 94px;
+    padding: 60px 0;
+    @media screen and (min-widht: 1200px) {
+        padding: 94px 0;
+    }
 }
 
 .portfolio-img-list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+}
+
+.portfolio-box {
+    @media screen and (min-widht: 768px) {
+        width: calc(100% - 30px / 2);
+}
 }
 
 .portfolio-img-name {
