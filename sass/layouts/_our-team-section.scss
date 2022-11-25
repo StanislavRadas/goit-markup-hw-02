@@ -102,7 +102,7 @@
 .our-clients {
     padding-top: 60px;
     padding-bottom: 60px;
-    @media screen and (min-widht: 1200px) {
+    @media screen and (min-width: 1200px) {
         padding: 94px 0;
     }
 }
@@ -128,14 +128,14 @@
 
 .clients-item {
     width: 100%;
-    @media screen and (min-widht: 480px) {
+    @media screen and (min-width: 480px) {
         width: calc(100% - 30px / 2);
     }
-    @media screen and (min-widht: 768px) {
+    @media screen and (min-width: 768px) {
         width: calc(100% - 60px / 3);
     }
         
-    @media screen and (min-widht: 1200px) {
+    @media screen and (min-width: 1200px) {
         width: calc(100% - 150px / 6);
     }
 

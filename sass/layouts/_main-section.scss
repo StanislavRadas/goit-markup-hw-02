@@ -1,6 +1,6 @@
 .benefits {
     padding: 60px 0;
-    @media screen and (min-widht: 1200px) {
+    @media screen and (min-width: 1200px) {
         padding: 94px 0;
     }
 }
@@ -16,10 +16,10 @@
     background-color: rgba(245, 244, 250, 1);
     width: 100%;
     border-radius: 4px;
-    @media screen and (min-widht: 768px) {
+    @media screen and (min-width: 768px) {
         width: calc(100% - 30px / 2);
     }
-    @media screen and (min-widht: 1200px) {
+    @media screen and (min-width: 1200px) {
         width: calc(100% - 120px / 4);
     }
 }
