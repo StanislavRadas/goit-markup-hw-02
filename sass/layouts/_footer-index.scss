@@ -2,6 +2,10 @@
     background-color: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
+    @media screen and (min-width: 1200px){
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
 }
 .webstudiofut {
     font-family: 'Raleway';
@@ -26,8 +30,6 @@
     color: #2196F3;
 }
 }
-
-
 
 .address-footer-index {
     margin-top: 20px;
@@ -56,8 +58,6 @@
     margin-bottom: 9px;
 }
 
-
-
 .footer-soc-title {
     font-family: 'Roboto';
     font-weight: 700;
@@ -69,18 +69,41 @@
 }
 
 .footer-two-colon {
-    display: flex;
-    align-items: baseline;
+    text-align: center;
+    @media screen and (min-width: 768px) {
+        width: 768px;
+        display: flex;
+        align-items: baseline;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        align-items: baseline; 
+    }
 }
 
 .footer-soc-container {
-    margin-left: 70px;
+    text-align: center;
+    @media screen and (min-width: 480px){
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+    @media screen and (min-width: 768px) {
+        margin-left: 165px;
+    }
+    @media screen and (min-width: 1200px) {
+      margin-left: 70px;  
+    }
+    
 }
 
 .footer-soc-list {
     display: flex;
     gap: 10px;
     margin-top: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-soc-item {
@@ -105,4 +128,9 @@
     background-color: #2196F3;
 }
 }
-
+.footer-three-colon{
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        align-items: baseline;
+    }
+}

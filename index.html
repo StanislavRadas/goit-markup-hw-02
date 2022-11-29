@@ -16,8 +16,8 @@
         rel="stylesheet">
 </head>
 <body>
-    <header class="header">
- <div class="container header-container-index">
+<header class="header">
+<div class="container header-container-index">
         <nav class="header-nav-index">
             <a href="./index.html" class="webstudio"><span class="web">Web</span>Studio</span></a>
             <div class="container-unter-line">
@@ -26,8 +26,7 @@
             <li><a href="./portfolio.html" class="nav-header">Портфоліо</a></li>
             <li><a href="" class="nav-header">Контакти</a></li>
         </ul>
-    </div>
-            
+    </div>       
     </nav>  
     <ul class="nav-contact-index list"> 
         <li class="nav-idex-li"><a href="mailto:info@devstudio.com" class="nav-contact"><svg class="nav-contact-icon" width="16" height="12">
@@ -37,8 +36,37 @@
             <use href="./images/symbol-env-handy.svg#icon-Vector"></use>
         </svg>+38 096 111 11 11</a></li>
     </ul>  
+    <button type="button" class="menu_open" data-menu-open><svg class="menu_icon" width="24" height="16">
+        <use href="./images/symbol-defs.svg#icon-menu_24px"></use>
+    </svg></button>
+</div>
+<div class="mob_menu is-hidden" data-menu>
+    <div class="container"> 
+    <div class="mob-menu_top">
+        <button type="button" class="menu_close" data-menu-close><svg class="modal-close-icon" width="19" height="19">
+            <use href="./images/symbol-defs.svg#icon-close-black"></use>
+        </svg></button>
+        <ul class="mob_menu_list list">
+        <li class="mob_menu-item"><a href="" class="mob-menu_link current">Студія</a></li>
+        <li class="mob_menu-item"><a href="./portfolio.html" class="mob-menu_link">Портфоліо</a></li>
+        <li class="mob_menu-item"><a href="" class="mob-menu_link">Контакти</a></li>
+    </ul>
+</div>
+    <div class="mob-menu_bottom">
+        <ul class="mob_contact-list list">
+        <li class="mobmenu-contact-item"><a href="tel:+380961111111" class="mob-menu_tel">+38 096 111 11 11</a></li>
+        <li class="mobmenu-contact-item"><a href="mailto:info@devstudio.com" class="mob-menu_mail">info@devstudio.com</a></li>
+    </ul>
+    <ul class="soc-mob_menu list">
+        <li class="mob-soc_item"><a href="" class="ref-soc_mob">Instagram</a></li>
+        <li class="mob-soc_item"><a href="" class="ref-soc_mob">Twitter</a></li>
+        <li class="mob-soc_item"><a href="" class="ref-soc_mob">Facebook</a></li>
+        <li class="mob-soc_item"><a href="" class="ref-soc_mob">LinkedIn</a></li>
+    </ul>
+</div>
 </div>     
-    </header>
+</div>
+    </header> 
     <main>
         <section class="head-section">
             <div class="container">
@@ -192,7 +220,8 @@
         </section>
     </main>
     <footer class="footer-section">
-       <div class="footer-two-colon container">
+        <div class="footer-three-colon container">
+            <div class="footer-two-colon">
         <div class="footer-container">
 <a href="./index.html" class="webstudiofut"><span class="web">Web</span>Studio</span></a>
             <address class="address-footer-index">
@@ -220,7 +249,8 @@
         </svg></a></li>
             </ul>
         </div> 
-        <div class="footer-input-check">
+    </div>  
+    <div class="footer-input-check container">
             <label for="footer-check" class="footer-label">Підпишіться на розсилку</label>
             <form class="form-check">
             <input type="text" id="footer-check" name="footer-check" class="footer-input" placeholder="E-mail">
@@ -232,7 +262,8 @@
             </span></button> 
             </form>
         </div> 
-    </div> 
+    </div>
+            
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
@@ -291,5 +322,6 @@
         </div>
     </div>
     <script src="js/modal.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 </html>
