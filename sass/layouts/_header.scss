@@ -12,9 +12,14 @@
     color: #2196F3;
     text-decoration: none;
 }
-.header{
+.header{  
     padding-top: 16px;
     padding-bottom: 16px;
+    @media screen and (min-width: 768px){
+    padding-top: 0;
+    padding-bottom: 0;   
+    }
+    
 }
 
 .header-nav-index {
@@ -33,6 +38,12 @@
     gap: 50px;
     margin-left: auto;
     @media screen and (min-width: 768px){
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-left: 100px;
+    }
+    @media screen and (min-width: 1200px){
         display: flex;
         gap: 50px;
         margin-left: auto;

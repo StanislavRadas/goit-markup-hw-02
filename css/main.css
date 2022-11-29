@@ -120,6 +120,12 @@ a {
   padding-top: 16px;
   padding-bottom: 16px;
 }
+@media screen and (min-width: 768px) {
+  .header {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
 
 .header-nav-index {
   display: flex;
@@ -137,6 +143,14 @@ a {
   margin-left: auto;
 }
 @media screen and (min-width: 768px) {
+  .nav-contact-index {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 100px;
+  }
+}
+@media screen and (min-width: 1200px) {
   .nav-contact-index {
     display: flex;
     gap: 50px;
@@ -1076,8 +1090,8 @@ a {
 }
 
 .modal {
-  width: 528px;
-  height: 581px;
+  width: 450px;
+  height: 609px;
   background-color: #FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -1087,6 +1101,18 @@ a {
   transform: translate(-50%, -50%) scaleY(1);
   transition: transform 250ms var(--transition-main);
   padding: 40px;
+}
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 450px;
+    height: 609px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
 }
 
 .backdrop.is-hidden.modal {
@@ -1225,13 +1251,19 @@ a {
 .check-text {
   color: rgb(117, 117, 117);
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.1666666667;
   letter-spacing: 0.03em;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
+}
+@media screen and (min-width: 1200px) {
+  .check-text {
+    font-size: 14px;
+    line-height: 1.7142857143;
+  }
 }
 
 .privacy-ref {

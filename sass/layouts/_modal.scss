@@ -8,8 +8,8 @@
 }
 
 .modal {
-    width: 528px;
-    height: 581px;
+    width: 450px;
+    height: 609px;
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -19,6 +19,14 @@
     transform: translate(-50%, -50%) scaleY(1);
     transition: transform 250ms var(--transition-main);
     padding: 40px;
+    @media screen and (min-width: 768px) {
+        width: 450px;
+        height: 609px;
+    }
+    @media screen and (min-width: 1200px) {
+        width: 528px;
+        height: 581px;
+    }
 }
 
 .backdrop.is-hidden.modal {
@@ -166,13 +174,17 @@
 .check-text {
     color: rgba(117, 117, 117, 1);
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
+    font-size: 12px;
+    line-height: calc(14 / 12);
     letter-spacing: 0.03em;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
+    @media screen and (min-width: 1200px){
+        font-size: 14px;
+        line-height: calc(24 / 14);
+    }
 }
 
 .privacy-ref {
