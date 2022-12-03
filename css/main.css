@@ -404,7 +404,7 @@ a {
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .head-section {
-    background-image: url(../images/Header-tab-2x.jpg);
+    background-image: url(../images/Header-tab2x.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
