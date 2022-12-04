@@ -2,10 +2,6 @@
     background-color: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
-    @media screen and (min-width: 1200px){
-        padding-top: 94px;
-        padding-bottom: 94px;
-    }
 }
 .webstudiofut {
     font-family: 'Raleway';
@@ -30,9 +26,14 @@
     color: #2196F3;
 }
 }
-
+.footer-container{
+    @media screen and (min-width: 1200px){
+        width: 207px;
+        text-align: left;}
+}
 .address-footer-index {
     margin-top: 20px;
+
 }
 
 .footer-contact {
@@ -67,15 +68,18 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
-
+.footer-container{
+@media screen and (min-width: 1200px){
+    max-width: 100%;
+}
+}
 .footer-two-colon {
     text-align: center;
     @media screen and (min-width: 768px) {
-        width: 768px;
         display: flex;
+        justify-content: space-around;
         align-items: baseline;
         text-align: center;
-        margin-bottom: 60px;
     }
     @media screen and (min-width: 1200px) {
         display: flex;
@@ -88,12 +92,11 @@
         margin-bottom: 60px;
         margin-top: 60px;  
     @media screen and (min-width: 768px) {
-        margin-left: 165px;
         margin-bottom: 0;
         margin-top: 0;
     }
     @media screen and (min-width: 1200px) {
-        margin-left: 70px; 
+        margin-left: 94px; 
         margin-bottom: 0;
         margin-top: 0;
     }

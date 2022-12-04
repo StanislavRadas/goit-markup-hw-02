@@ -153,7 +153,7 @@ padding: 60px 0;
     display: flex;
     transition: color var(--transition-main), fill var(--transition-main);
     @media screen and (min-width: 768px){
-        width: 170px;
+        max-width: 226px;
     }
     &:hover,
     &:focus {
